@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "aaef0f3c-d415-47c4-abfe-03686996898a",
-  "alias": "SharepointTemplateWebPart",
+  "id": "e73c46e7-04cf-4485-b26b-b3896793a7d4",
+  "alias": "ContactWebPart",
   "componentType": "WebPart",
 
   // The "*" signifies that the version should be taken from the package.json
@@ -14,17 +14,15 @@
   "requiresCustomScript": false,
   "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
   "supportsThemeVariants": true,
-  "supportsFullBleed": true,
-
 
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
     "group": { "default": "Other" },
-    "title": { "default": "sharepoint-template" },
-    "description": { "default": "sharepoint-template description" },
+    "title": { "default": "Contact" },
+    "description": { "default": "Contact description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "sharepoint-template"
+      "description": "Contact"
     }
   }]
 }

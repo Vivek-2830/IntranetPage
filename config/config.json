@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/customePage/CustomePageWebPart.manifest.json"
         }
       ]
+    },
+    "contact-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contact/ContactWebPart.js",
+          "manifest": "./src/webparts/contact/ContactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "SharepointTemplateWebPartStrings": "lib/webparts/sharepointTemplate/loc/{locale}.js",
-    "CustomePageWebPartStrings": "lib/webparts/customePage/loc/{locale}.js"
+    "CustomePageWebPartStrings": "lib/webparts/customePage/loc/{locale}.js",
+    "ContactWebPartStrings": "lib/webparts/contact/loc/{locale}.js"
   }
 }

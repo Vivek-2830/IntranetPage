@@ -10,6 +10,8 @@ export interface ICustomePageState {
 
 }
 
+require("../assets/css/style.css");
+
 export default class CustomePage extends React.Component<ICustomePageProps, ICustomePageState> {
 
   constructor(props: ICustomePageProps , state: ICustomePageState) {
@@ -31,7 +33,15 @@ export default class CustomePage extends React.Component<ICustomePageProps, ICus
 
     return (
         <div className="customePage">
-          
+          <div className='ms-Grid'>
+            <div className='ms-Grid-row'>
+              <div className='ms-Grid-col'> 
+                <div className='Virtual-board'>
+                  <h2>VIRTUAL ONBOARDING ROADMAP</h2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     );
   }
