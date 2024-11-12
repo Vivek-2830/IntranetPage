@@ -1,9 +1,20 @@
+[data-sp-feature-tag="PageTitle web part (Banner)"] {
+    display: none;
+}
+
 [data-automation-id="CanvasZone-SectionContainer"] {
     max-width: 150% !important;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
 .welcome-text {
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,26 +22,49 @@
     color: white;
     padding: 50px;
     border-radius: 0 0 50px 50px;
-    overflow: hidden;
-}
-
-.Header-Text {
-    max-width: 50%;
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #3582c4;
+    color: #fff;
+    padding: 11px;
 }
 
 .Header-Text h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
+     font-size: 3em;
+    /* margin-bottom: 20px; */
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 69px;
+    margin-top: 70px;
 }
 
 .Header-Text p {
     font-size: 1.2em;
     line-height: 1.5;
+    margin-bottom: 10px;
+    margin-left: 69px;
 }
 
-.image {
+.Step-Image img{
+    object-fit: cover;
+    margin: 11px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    border-top-left-radius: 196px;
+    border-bottom-left-radius: 196px;
+    margin-top: -11px;
+    margin-bottom: -11px;
+}
+
+.Step-Image{
+    flex-basis: 50%;
+}
+
+/* .image {
     position: relative;
-    background-color: white;
     overflow: hidden;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -43,4 +77,41 @@
     height: auto;
     border-radius: 10px;
     margin-top: -30px;
+} */
+
+.Step-Icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.All-Icons{
+    height: 101px;
+    background-color: white;
+    color: #3582c4;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color .3s ease;
+    flex-basis: 8%;
+    text-align: center;
+    border: 6px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.All-Icons:hover {
+    box-shadow: 0 1rem 2rem -1rem black;
+}
+
+.All-Icons .Items-Icon{
+    font-size: 42px;
+    margin-top: 16px;
+}
+
+.All-Icons p{
+    color:  black;
+    font-size: 20px;
+    margin: 7px;
 }

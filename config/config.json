@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/sharepointTemplate/SharepointTemplateWebPart.manifest.json"
         }
       ]
+    },
+    "custome-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customePage/CustomePageWebPart.js",
+          "manifest": "./src/webparts/customePage/CustomePageWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SharepointTemplateWebPartStrings": "lib/webparts/sharepointTemplate/loc/{locale}.js"
+    "SharepointTemplateWebPartStrings": "lib/webparts/sharepointTemplate/loc/{locale}.js",
+    "CustomePageWebPartStrings": "lib/webparts/customePage/loc/{locale}.js"
   }
 }
