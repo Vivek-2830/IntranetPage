@@ -96,7 +96,7 @@ export default class Contact extends React.Component<IContactProps, IContactStat
                   </div>
 
                   <div className='FAQ-Question'>
-                    <img src="https://miro.medium.com/v2/resize:fit:915/0*FdLLSjLPudGd-Pt5" alt="FAQ Questions" onClick={() => this.setState({ AddFAQDialog : false})}/>
+                    <img src="https://miro.medium.com/v2/resize:fit:915/0*FdLLSjLPudGd-Pt5" alt="FAQ Questions" onClick={() => this.setState({ AddFAQDialog : false })}/>
                     <h2>FAQS</h2>
                   </div>
 

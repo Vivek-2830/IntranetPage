@@ -25,12 +25,21 @@
           "manifest": "./src/webparts/contact/ContactWebPart.manifest.json"
         }
       ]
+    },
+    "onboarding-resources-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/onboardingResources/OnboardingResourcesWebPart.js",
+          "manifest": "./src/webparts/onboardingResources/OnboardingResourcesWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "SharepointTemplateWebPartStrings": "lib/webparts/sharepointTemplate/loc/{locale}.js",
     "CustomePageWebPartStrings": "lib/webparts/customePage/loc/{locale}.js",
-    "ContactWebPartStrings": "lib/webparts/contact/loc/{locale}.js"
+    "ContactWebPartStrings": "lib/webparts/contact/loc/{locale}.js",
+    "OnboardingResourcesWebPartStrings": "lib/webparts/onboardingResources/loc/{locale}.js"
   }
 }

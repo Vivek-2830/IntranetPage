@@ -14,15 +14,6 @@
 }
 
 .welcome-text {
-    /* font-family: 'Arial', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #3582c4;
-    color: white;
-    padding: 50px;
-    border-radius: 0 0 50px 50px;
-    overflow: hidden; */
     display: flex;
     justify-content: space-between;
     background-color: #3582c4;
@@ -32,7 +23,6 @@
 
 .Header-Text h1 {
      font-size: 3em;
-    /* margin-bottom: 20px; */
     font-family: Arial, sans-serif;
     font-weight: 700;
     margin-bottom: 10px;
@@ -62,22 +52,6 @@
 .Step-Image{
     flex-basis: 50%;
 }
-
-/* .image {
-    position: relative;
-    overflow: hidden;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    padding-bottom: 50px;
-    text-align: center;
-}
-
-.step-image {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: -30px;
-} */
 
 .Step-Icons{
     display: flex;
