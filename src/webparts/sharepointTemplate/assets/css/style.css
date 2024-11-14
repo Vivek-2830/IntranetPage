@@ -6,6 +6,31 @@
     max-width: 150% !important;
 }
 
+[data-automation-id="sp-appBar"] {
+    display: none;
+}
+
+/* .spAppAndPropertyPanelContainer .sp-appBar {
+    background: #F0F0F0;
+    display: block;
+    min-width: 47px;
+    display: none;
+} */
+
+#sp-appBar {
+    display: none;
+}
+
+#spCommandBar {
+    display: none;
+}
+
+/* .isFluent .SPPageChrome-app .commandBarWrapper {
+    border-bottom: 1px solid;
+    border-color: #edebe9;
+    display: none;
+} */
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -14,19 +39,22 @@
 }
 
 .welcome-text {
+    margin-top: -21px;
+    width: 1566px;
     display: flex;
     justify-content: space-between;
     background-color: #3582c4;
     color: #fff;
     padding: 11px;
+    margin-left: -100px;
 }
 
 .Header-Text h1 {
-     font-size: 3em;
+    font-size: 3em;
     font-family: Arial, sans-serif;
     font-weight: 700;
     margin-bottom: 10px;
-    margin-left: 69px;
+    margin-left: 101px;
     margin-top: 70px;
 }
 
@@ -34,13 +62,13 @@
     font-size: 1.2em;
     line-height: 1.5;
     margin-bottom: 10px;
-    margin-left: 69px;
+    margin-left: 101px;
 }
 
 .Step-Image img{
     object-fit: cover;
     margin: 11px;
-    height: 350px;
+    height: 392px;
     width: 100%;
     display: flex;
     border-top-left-radius: 196px;
@@ -76,7 +104,7 @@
 }
 
 .All-Icons:hover {
-    box-shadow: 0 1rem 2rem -1rem black;
+    box-shadow: 0 1rem 0rem -1rem black;
 }
 
 .All-Icons .Items-Icon{
